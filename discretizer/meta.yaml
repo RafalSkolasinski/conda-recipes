@@ -4,7 +4,7 @@ package:
 
 source:
   git_rev: v0.2
-  git_url: git@gitlab.kwant-project.org:r-j-skolasinski/discretizer.git
+  git_url: https://gitlab.kwant-project.org/r-j-skolasinski/discretizer.git
 
 requirements:
   build:
@@ -18,9 +18,9 @@ requirements:
     - kwant
     - numpy
 
-test:
-  imports:
-    - discretizer
+# test:
+#   imports:
+#     - discretizer
 
 about:
   home: https://gitlab.kwant-project.org/r-j-skolasinski/discretizer
