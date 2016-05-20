@@ -13,6 +13,7 @@ RUN rm Anaconda3-2.5.0-Linux-x86_64.sh
 RUN echo 'export PATH="/root/anaconda3/bin:$PATH"' > /root/.bashrc
 ENV PATH /root/anaconda3/bin:$PATH
 RUN conda install -y conda-build
+RUN conda update -y conda-build
 
 
 RUN mkdir /recipes
