@@ -1,9 +1,9 @@
 package:
   name: discretizer
-  version: "0.3"
+  version: "0.3.1"
 
 source:
-  git_rev: v0.3
+  git_rev: v0.3.1
   git_url: https://gitlab.kwant-project.org/r-j-skolasinski/discretizer.git
 
 requirements:
