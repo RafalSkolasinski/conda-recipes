@@ -22,7 +22,7 @@ WORKDIR /recipes/
 
 # Building discretizer
 ADD discretizer /recipes/discretizer
-RUN conda build discretizer --python 2.7
+RUN conda build discretizer --python 3.4
 RUN conda build discretizer --python 3.5
 
 
